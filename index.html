@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exsample</h1>
+    <p>World</p>
+    <p>Some</p>
+    <p>Text</p>
+    <p>Hello</p>
+    <button class="bt">T</button>
+</body>
+<script>
+    let test = 123;
+    let str = 'Vlad';
+    let str2 = "Vlad";
+    let famely = {
+                father : 'Bob',
+                mother : 'Ira',
+                dother : 'Pizda',
+                dother_age : 13,
+                animals_named : { 
+                    cat_name : 'Molly', 
+                    dog_name : 'Charly', 
+                    rat_name : 'Dno' 
+                }
+            };
+    let element = document.querySelector('.bt');
+    element.addEventListener('click', function() {
+        let e = document.querySelector('h1');
+        e.innerText = "Pizda";
+        let ps = document.querySelectorAll('p');
+        ps.forEach( function(item) {
+            item.innerText = 'Pizda ' + Math.floor(Math.random() * 999);
+        });
+    });
+</script>
+</html>
