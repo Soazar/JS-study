@@ -114,9 +114,14 @@ typeof alert  */// "function"  (3)
 // alert(typeof value); // string
 // alert("6" / "2");
 
-let str = "123";
-alert(typeof str); // string
+// let str = "123";
+// alert(typeof str); // string
 
-let num = Number(str); // становится числом 123
+// let num = Number(str); // становится числом 123
 
-alert(typeof num); // number
+// alert(typeof num); // number
+
+let x = 1;
+
+x = -x;
+alert( x );
