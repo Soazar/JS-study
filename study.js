@@ -133,7 +133,18 @@ typeof alert  */// "function"  (3)
 // alert( 2 ** 3 ); // 8  (2 * 2 * 2, 3 раза)
 // alert( 2 ** 4 ); // 16 (2 * 2 * 2 * 2, 4 раза)
 
-let a = prompt("Первое число?",  1);
-let b = prompt("Второе число?",  2);
+// let a = prompt("Первое число?",  1);
+// let b = prompt("Второе число?",  2);
 
-alert(1 + 2);
+// alert(1 + 2);
+
+let result = 5 > 4; // результат сравнения присваивается переменной result
+alert(result); // true
+
+ > 4 → true
+"ананас" > "яблоко" → false
+"2" > "12" → true
+undefined == null → true
+undefined === null → false
+null == "\n0\n" → false
+null === +"\n0\n" → false
