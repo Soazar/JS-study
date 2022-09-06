@@ -121,7 +121,9 @@ typeof alert  */// "function"  (3)
 
 // alert(typeof num); // number
 
-let x = 1;
+// let x = 1;
 
-x = -x;
-alert( x );
+// x = -x;
+// alert(x);
+let x = 1, y = 3;
+alert( y - x ); // 2, бинарный минус вычитает значения
