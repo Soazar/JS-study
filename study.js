@@ -138,13 +138,21 @@ typeof alert  */// "function"  (3)
 
 // alert(1 + 2);
 
-let result = 5 > 4; // результат сравнения присваивается переменной result
-alert(result); // true
+// let result = 5 > 4; // результат сравнения присваивается переменной result
+// alert(result); // true
 
- > 4 → true
-"ананас" > "яблоко" → false
-"2" > "12" → true
-undefined == null → true
-undefined === null → false
-null == "\n0\n" → false
-null === +"\n0\n" → false
+//  > 4 → true
+// "ананас" > "яблоко" → false
+// "2" > "12" → true
+// undefined == null → true
+// undefined === null → false
+// null == "\n0\n" → false
+// null === +"\n0\n" → false
+
+let year = prompt('В каком году была опубликована спецификация ECMAScript-2015?', '');
+
+if (year == 2015) {
+  alert( 'Да вы знаток!' );
+} else {
+  alert( 'А вот и неправильно!' ); // любое значение, кроме 2015
+}
