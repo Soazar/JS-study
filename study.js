@@ -149,10 +149,50 @@ typeof alert  */// "function"  (3)
 // null == "\n0\n" → false
 // null === +"\n0\n" → false
 
-let year = prompt('В каком году была опубликована спецификация ECMAScript-2015?', '');
+// let year = prompt('В каком году была опубликована спецификация ECMAScript-2015?', '');
 
-if (year == 2015) {
-  alert( 'Да вы знаток!' );
+
+// if (year == 2015) {
+//   alert( 'Да вы знаток!' );
+// } else {
+//   alert( 'А вот и неправильно!' ); // любое значение, кроме 2015
+// }
+
+// let year = prompt('В каком году была опубликована спецификация ECMAScript-2015?', '');
+
+// if (year < 2015) {
+//   alert( 'Это слишком рано...' );
+// } else if (year > 2015) {
+//   alert( 'Это поздновато' );
+// } else {
+//   alert( 'Верно!' );
+// }
+
+// let accessAllowed;
+// let age = prompt('Сколько вам лет?', '');
+
+// if (age > 18) {
+//   accessAllowed = true;
+// } else {
+//   accessAllowed = false;
+// }
+
+// alert(accessAllowed);
+// let company = prompt('Какая компания создала JavaScript?',"");
+//  if (company == 'Netscape') {
+//   alert('Верно!');
+// } else {
+//   alert('Не знаете? ECMAScript!');
+// }
+
+
+
+let value = prompt('Введите число', 0);
+
+if (value > 0) {
+  alert( 1 );
+} else if (value < 0) {
+  alert( -1 );
 } else {
-  alert( 'А вот и неправильно!' ); // любое значение, кроме 2015
+  alert( 0 );
 }
