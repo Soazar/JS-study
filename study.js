@@ -189,12 +189,19 @@ typeof alert  */// "function"  (3)
 
 // let value = prompt('Введите число', 0);
 
-if (value > 0) {
-  alert( 1 );
-} else if (value < 0) {
-  alert( -1 );
-} else {
-  alert( 0 );
-}
+// if (value > 0) {
+//   alert( 1 );
+// } else if (value < 0) {
+//   alert( -1 );
+// } else {
+//   alert( 0 );
+// }
 
+const name = 'Влад'
+const age = 33
+function getAge() {
+  return age
+}
+const output = `Привіт, мене звати ${name} і мені ${age} роки.`
+console.log(output)
 
