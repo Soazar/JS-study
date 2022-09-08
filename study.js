@@ -197,11 +197,19 @@ typeof alert  */// "function"  (3)
 //   alert( 0 );
 // }
 
-const name = 'Влад'
-const age = 33
-function getAge() {
-  return age
-}
-const output = `Привіт, мене звати ${name} і мені ${age} роки.`
+// const name = 'Влад'
+// const age = 33
+// function getAge() {
+//   return age
+// }
+// const output = `Привіт, мене звати ${name} і мені ${age} роки.`
+// console.log(output)
+
+const output = `
+<div>This is div</div>
+  <p>This is p</p>
+`
+
 console.log(output)
+
 
