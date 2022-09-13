@@ -187,7 +187,7 @@ typeof alert  */// "function"  (3)
 
 
 
-// let value = prompt('Введите число', 0);
+let value = prompt('Введите число', 0);
 
 // if (value > 0) {
 //   alert( 1 );
@@ -205,13 +205,12 @@ typeof alert  */// "function"  (3)
 // const output = `Привіт, мене звати ${name} і мені ${age} роки.`
 // console.log(output)
 
-const output = `
-<div>This is div</div>
-  <p>This is p</p>
-`
+// const output = `
+// <div>This is div</div>
+//   <p>This is p</p>
+// `
 
-console.log(output)
+// console.log(output)
 
-function
-
-
+// function
+console.log (value.includes('Введите число', 0))
