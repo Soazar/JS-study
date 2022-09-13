@@ -213,11 +213,11 @@ typeof alert  */// "function"  (3)
 // console.log(output)
 
 function changeColor(element) {
-  var cuurentColor = element.style.backfroundColor;
-  if (cuurentColor == "red") {
-    element.style.backfroundColor = "green";
+  var currentColor = element.style.backgroundColor;
+  if (currentColor == "red") {
+    element.style.backgroundColor = "green";
   } else {
-    element.style.backfroundColor = "red";
+    element.style.backgroundColor = "red";
   }
 }
 
