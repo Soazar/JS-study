@@ -187,7 +187,7 @@ typeof alert  */// "function"  (3)
 
 
 
-let value = prompt('Введите число', 0);
+// let value = prompt('Введите число', 0);
 
 // if (value > 0) {
 //   alert( 1 );
@@ -212,5 +212,12 @@ let value = prompt('Введите число', 0);
 
 // console.log(output)
 
-// function
-console.log (value.includes('Введите число', 0))
+function changeColor(element) {
+  var cuurentColor = element.style.backfroundColor;
+  if (cuurentColor == "red") {
+    element.style.backfroundColor = "green";
+  } else {
+    element.style.backfroundColor = "red";
+  }
+}
+
