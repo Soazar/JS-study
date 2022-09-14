@@ -212,12 +212,16 @@ typeof alert  */// "function"  (3)
 
 // console.log(output)
 
-function changeColor(element) {
-  var currentColor = element.style.backgroundColor;
-  if (currentColor == "red") {
-    element.style.backgroundColor = "green";
-  } else {
-    element.style.backgroundColor = "red";
-  }
-}
+// function changeColor(element) {
+//   var currentColor = element.style.backgroundColor;
+//   if (currentColor == "red") {
+//     element.style.backgroundColor = "green";
+//   } else {
+//     element.style.backgroundColor = "red";
+  
+// 
 
+let height = 0;
+
+alert(height || 100); // 100
+alert(height ?? 100); // 0
