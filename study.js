@@ -219,9 +219,17 @@ typeof alert  */// "function"  (3)
 //   } else {
 //     element.style.backgroundColor = "red";
   
-// 
+//
 
-let height = 0;
+// let height = 0;
 
-alert(height || 100); // 100
-alert(height ?? 100); // 0
+// alert(height || 100); // 100
+// alert(height ?? 100); // 0
+
+let fruit = prompt("Какой фрукт купить?", "apple");
+
+let bag = {
+  [fruit]: 5, // имя свойства будет взято из переменной fruit
+};
+
+alert( bag.apple ); // 5, если fruit="apple"
