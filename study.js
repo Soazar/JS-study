@@ -226,10 +226,15 @@ typeof alert  */// "function"  (3)
 // alert(height || 100); // 100
 // alert(height ?? 100); // 0
 
-let fruit = prompt("Какой фрукт купить?", "apple");
+// let fruit = prompt("Какой фрукт купить?", "apple");
 
-let bag = {
-  [fruit]: 5, // имя свойства будет взято из переменной fruit
-};
+// let bag = {
+//   [fruit]: 5, // имя свойства будет взято из переменной fruit
+// };
 
-alert( bag.apple ); // 5, если fruit="apple"
+// alert( bag.apple ); // 5, если fruit="apple"
+let i = 5;
+
+while (i) {
+  alert( i++);
+}
