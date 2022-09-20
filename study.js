@@ -233,8 +233,47 @@ typeof alert  */// "function"  (3)
 // };
 
 // alert( bag.apple ); // 5, если fruit="apple"
-let i = 5;
+// let i = 5;
 
-while (i) {
-  alert( i++);
-}
+// while (i) {
+//   alert( i++);
+// }
+
+// let a = 2 + 2;
+
+// switch (a) {
+//   case 3:
+//     alert( 'Маловато' );
+//   case 4:
+//     alert( 'В точку!' );
+//   case 5:
+//     alert( 'Перебор' );
+//   default:
+//     alert( "Нет таких значений" );
+// }
+
+// let sum = (a, b) => {  // фигурная скобка, открывающая тело многострочной функции
+//   let result = a + b;
+//   return result; // если мы используем фигурные скобки, то нам нужно явно указать "return"
+// };
+
+// alert( sum(1, 2) ); // 3
+
+
+typeof undefined // "undefined"
+
+typeof 0 // "number"
+
+typeof 10n // "bigint"
+
+typeof true // "boolean"
+
+typeof "foo" // "string"
+
+typeof Symbol("id") // "symbol"
+
+typeof Math // "object"  (1)
+
+typeof null // "object"  (2)
+
+typeof alert // "function"  (3)
