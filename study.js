@@ -279,8 +279,44 @@ typeof alert  */// "function"  (3)
 // typeof alert // "function"  (3)
 
 
-let fruits = ["Яблоко", "Апельсин", "Слива"];
+// let fruits = ["Яблоко", "Апельсин", "Слива"];
 
-alert( fruits[0] ); // Яблоко
-alert( fruits[1] ); // Апельсин
-alert( fruits[2] ); // Слива
+// alert( fruits[0] ); // Яблоко
+// alert( fruits[1] ); // Апельсин
+// alert( fruits[2] ); // Слива
+
+
+// let family = ["table", "chair", "bed", "picture"];
+
+// for (let counter = 0; counter < family.length; counter++){
+//   console.log("interior: " + family[counter]);
+// }
+
+// // console.log(family.length);
+// // console.log(family[0]);
+// // console.log(family[3]);
+// // console.log(family[1], family[2], family[3])
+
+// let star = ["*"];
+// for (let i = 0; i< 77; i++){
+//   console.log("*")
+//   console.log("**");
+//   console.log("***");
+//   console.log("****");
+//   console.log("******");
+//   console.log("*******");
+//   console.log("********");
+//   console.log("*********");
+//   console.log("**********");
+//   console.log("***********");
+//   console.log("************");
+//   console.log("*************");
+//   console.log("**************");
+//   console.log("***************");
+// }
+
+let symbol = "*";
+for (let i = 1; i < 25; i++){
+  symbol=symbol+"*"
+  console.log(symbol)
+}
