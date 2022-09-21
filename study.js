@@ -260,20 +260,27 @@ typeof alert  */// "function"  (3)
 // alert( sum(1, 2) ); // 3
 
 
-typeof undefined // "undefined"
+// typeof undefined // "undefined"
 
-typeof 0 // "number"
+// typeof 0 // "number"
 
-typeof 10n // "bigint"
+// typeof 10n // "bigint"
 
-typeof true // "boolean"
+// typeof true // "boolean"
 
-typeof "foo" // "string"
+// typeof "foo" // "string"
 
-typeof Symbol("id") // "symbol"
+// typeof Symbol("id") // "symbol"
 
-typeof Math // "object"  (1)
+// typeof Math // "object"  (1)
 
-typeof null // "object"  (2)
+// typeof null // "object"  (2)
 
-typeof alert // "function"  (3)
+// typeof alert // "function"  (3)
+
+
+let fruits = ["Яблоко", "Апельсин", "Слива"];
+
+alert( fruits[0] ); // Яблоко
+alert( fruits[1] ); // Апельсин
+alert( fruits[2] ); // Слива
