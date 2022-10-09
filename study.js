@@ -315,8 +315,83 @@ typeof alert  */// "function"  (3)
 //   console.log("***************");
 // }
 
-let symbol = "*";
-for (let i = 1; i < 25; i++){
-  symbol=symbol+"*"
-  console.log(symbol)
+// let symbol = "*";
+// for (let i = 1; i < 25; i++){
+//   symbol=symbol+"*"
+//   console.log(symbol)
+// }
+// "use strict";
+// console.log(this);
+// typeof undefined
+// console.log(typeof undefined)
+// let arr=[0,1,2,3]
+// console.log(arr)
+
+// function hello(name) {
+//   let phrase = `Привет, ${name}!`;
+
+//   debugger;  // <-- тут отладчик остановится
+
+//   say(phrase);
+// }
+
+// function showPrimes(n) {
+//   nextPrime:
+//   for (let i = 2; i < n; i++) {
+
+//     // проверяем, является ли i простым числом
+//     for (let j = 2; j < i; j++) {
+//       if (i % j == 0) continue nextPrime;
+//     }
+
+//     alert(i);
+//   }
+// }
+
+/* unction showPrimes(n) {
+
+  for (let i = 2; i < n; i++) {
+    if (!isPrime(i)) continue;
+
+    alert(i);
+  }
 }
+function isPrime(n) {
+  for (let i = 2; i < n; i++) {
+    if (n % i == 0) return false;
+  }
+
+  return true;
+} */
+
+// let num = 8
+// while (num) {
+//   console.log(num);
+//   num--;
+// }
+
+
+
+/* setTimeout(() => {
+
+
+  alert('Привет');
+
+}, 2000);
+
+
+
+
+
+let dno =  (arg1, arg2, arg3) => {
+  console.log('dno', arg1, arg2+arg3);
+}
+
+let satana =  (arg1, arg2, arg3) => {
+  console.log('dno', arg1, arg2+arg3);
+}
+
+dno(1, 2, 3); */
+
+let arr = ["I", "go", "home"];
+console.log(arr,length)
