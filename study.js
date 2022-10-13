@@ -393,5 +393,18 @@ let satana =  (arg1, arg2, arg3) => {
 
 dno(1, 2, 3); */
 
-let arr = ["I", "go", "home"];
-console.log(arr,length)
+/* let arr = ["I", "go", "home"];
+console.log(arr,length) */
+
+let user = {
+  name: "John",
+  age: 30
+};
+
+user.sayHi = function() {
+  alert("Привет!");
+};
+
+user.sayHi();
+
+console.log(user)
